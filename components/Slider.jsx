@@ -43,7 +43,7 @@ export default function Slider({ slides }) {
                 style={{ objectFit: 'contain' }}
                 fill
                 src={slide.image}
-                alt='/'
+                alt='sample'
                 loading='lazy'
               />
             )}

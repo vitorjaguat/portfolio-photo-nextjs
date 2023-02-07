@@ -6,7 +6,7 @@ export default function InstagramImg({ socialImg }) {
     <div className='relative'>
       <Image
         src={socialImg}
-        alt='/'
+        alt='sample'
         className='w-full h-full'
         layout='responsive'
         // fill

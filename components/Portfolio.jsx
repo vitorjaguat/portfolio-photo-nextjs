@@ -8,7 +8,7 @@ export default function Portfolio() {
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
           <Image
             src='https://images.unsplash.com/photo-1547803233-71d592607aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=672&q=80'
-            alt='/'
+            alt='sample'
             layout='responsive'
             width='677'
             height='451'
@@ -22,6 +22,7 @@ export default function Portfolio() {
             height='217'
             layout='responsive'
             objectFit='cover'
+            alt='sample'
           />
         </div>
         <div className='w-full h-full'>
@@ -31,6 +32,7 @@ export default function Portfolio() {
             height='217'
             layout='responsive'
             objectFit='cover'
+            alt='sample'
           />
         </div>
         <div className='w-full h-full'>
@@ -40,6 +42,7 @@ export default function Portfolio() {
             height='217'
             layout='responsive'
             objectFit='cover'
+            alt='sample'
           />
         </div>
         <div className='w-full h-full'>
@@ -49,6 +52,7 @@ export default function Portfolio() {
             height='217'
             layout='responsive'
             objectFit='cover'
+            alt='sample'
           />
         </div>
       </div>

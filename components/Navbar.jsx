@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/' scroll={false}>
           <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Captur
+            Mist Valley
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
@@ -45,7 +45,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className='p-4'>
-            <Link href='/portfolio'>Work</Link>
+            <Link href='/work'>Work</Link>
           </li>
           <li className='p-4'>
             <Link href='/contact'>Contact</Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
         {/* Mobile button */}
         <div onClick={handleNav} className='sm:hidden block z-10'>
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={20} style={{ color: '#fff' }} />
           ) : (
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
@@ -69,16 +69,28 @@ export default function Navbar() {
           }
         >
           <ul>
-            <li className='p-4 text-4xl hover:text-grey-500'>
+            <li
+              onClick={handleNav}
+              className='p-4 text-4xl hover:text-grey-500'
+            >
               <Link href='/'>Home</Link>
             </li>
-            <li className='p-4 text-4xl hover:text-grey-500'>
+            <li
+              onClick={handleNav}
+              className='p-4 text-4xl hover:text-grey-500'
+            >
               <Link href='/#gallery'>Gallery</Link>
             </li>
-            <li className='p-4 text-4xl hover:text-grey-500'>
-              <Link href='/portfolio'>Work</Link>
+            <li
+              onClick={handleNav}
+              className='p-4 text-4xl hover:text-grey-500'
+            >
+              <Link href='/work'>Work</Link>
             </li>
-            <li className='p-4 text-4xl hover:text-grey-500'>
+            <li
+              onClick={handleNav}
+              className='p-4 text-4xl hover:text-grey-500'
+            >
               <Link href='/contact'>Contact</Link>
             </li>
           </ul>

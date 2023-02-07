@@ -19,7 +19,7 @@ export default function Slider({ slides }) {
   }
 
   return (
-    <div id='gallery' className='max-w-[1240px] mx-auto pt-5'>
+    <div id='gallery' className='max-w-[1240px] mx-auto pt-4 pb-[6rem]'>
       <h1 className='text-2xl font-bold text-center p-4 pb-14'>Gallery</h1>
       <div className='relative flex justify-center p-4'>
         {SliderData.map((slide, index) => (

@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { SliderData } from '../components/SliderData';
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div>
       <Head>
@@ -28,4 +28,10 @@ export default function Home() {
       <Instagram />
     </div>
   );
+}
+
+export function getStaticProps() {
+  return {
+    props: {},
+  };
 }
